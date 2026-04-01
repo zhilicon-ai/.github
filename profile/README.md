@@ -1,22 +1,14 @@
-<h1 align="center">
-<br>
-
-```
- ┌─────────────────────────────────────────────────────────────┐
- │                                                             │
- │    ███████╗██╗  ██╗██╗██╗     ██╗ ██████╗ ██████╗ ███╗  ██╗│
- │    ╚══███╔╝██║  ██║██║██║     ██║██╔════╝██╔═══██╗████╗ ██║│
- │      ███╔╝ ████████║██║██║     ██║██║     ██║   ██║██╔██╗██║│
- │     ███╔╝  ██╔══██║██║██║     ██║██║     ██║   ██║██║╚████║│
- │    ███████╗██║  ██║██║███████╗██║╚██████╗╚██████╔╝██║ ╚███║│
- │    ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚═╝ ╚═════╝ ╚═════╝╚═╝  ╚══╝│
- │                                                             │
- │              Purpose-built silicon for AI inference          │
- │                                                             │
- └─────────────────────────────────────────────────────────────┘
-```
-
-</h1>
+<p align="center">
+  <br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zhilicon-ai/.github/main/profile/assets/zhilicon-logo-dark.png" width="480">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zhilicon-ai/.github/main/profile/assets/zhilicon-logo-light.png" width="480">
+    <img alt="Zhilicon" src="https://raw.githubusercontent.com/zhilicon-ai/.github/main/profile/assets/zhilicon-logo-light.png" width="480">
+  </picture>
+  <br><br>
+  <em>Purpose-built silicon for AI inference</em>
+  <br><br>
+</p>
 
 <p align="center">
   <strong>We design AI inference chips from the transistor up.</strong><br>
