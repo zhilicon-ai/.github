@@ -10,6 +10,33 @@
   <br><br>
 </p>
 
+<!-- Hero badges -->
+<p align="center">
+  <a href="https://developers.zhilicon.ai"><img src="https://img.shields.io/badge/ZHI--1_B0-Production_Silicon-0d1117?style=for-the-badge&labelColor=0d1117" alt="ZHI-1 B0"></a>&nbsp;
+  <a href="https://github.com/zhilicon-ai/zhilicon-sdk-examples/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-3da639?style=for-the-badge&labelColor=0d1117" alt="Apache 2.0"></a>&nbsp;
+  <a href="https://discord.gg/zhilicon"><img src="https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117" alt="Discord"></a>
+</p>
+
+<!-- Tech stack badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/SystemVerilog-2017-4B0082?style=flat-square&labelColor=1a1a2e" alt="SystemVerilog 2017">&nbsp;
+  <img src="https://img.shields.io/badge/C-11-00599C?style=flat-square&logo=c&logoColor=white&labelColor=1a1a2e" alt="C11">&nbsp;
+  <img src="https://img.shields.io/badge/C++-17-00599C?style=flat-square&logo=cplusplus&logoColor=white&labelColor=1a1a2e" alt="C++17">&nbsp;
+  <img src="https://img.shields.io/badge/Python-3.10_|_3.11_|_3.12-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1a2e" alt="Python">&nbsp;
+  <img src="https://img.shields.io/badge/ONNX-Supported-005CED?style=flat-square&logo=onnx&logoColor=white&labelColor=1a1a2e" alt="ONNX">&nbsp;
+  <img src="https://img.shields.io/badge/UVM-1.2-6E4C9E?style=flat-square&labelColor=1a1a2e" alt="UVM 1.2">
+</p>
+
+<!-- Performance highlight badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/ResNet--50_FP16-12,400_img%2Fs-00C853?style=flat-square&labelColor=1a1a2e" alt="ResNet-50 FP16">&nbsp;
+  <img src="https://img.shields.io/badge/LLaMA--3--8B-3,200_tok%2Fs-00C853?style=flat-square&labelColor=1a1a2e" alt="LLaMA-3-8B">&nbsp;
+  <img src="https://img.shields.io/badge/Speculative_Decode-7,400_tok%2Fs-00C853?style=flat-square&labelColor=1a1a2e" alt="Speculative Decode">&nbsp;
+  <img src="https://img.shields.io/badge/BGE--large-28K_seq%2Fs-00C853?style=flat-square&labelColor=1a1a2e" alt="BGE-large">
+</p>
+
+<br>
+
 <p align="center">
   <strong>We design AI inference chips from the transistor up.</strong><br>
   Architecture, RTL, verification, compiler, runtime, SDK — one team, one chip, one mission.
