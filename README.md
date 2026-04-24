@@ -11,7 +11,7 @@
 ### Org-level GitHub landing page, community-health files, and cross-repository policy for the Zhilicon five-chip silicon portfolio.
 
 [![Org Profile](https://img.shields.io/badge/org_profile-live-00C853)](https://github.com/zhilicon-ai)
-[![Portfolio](https://img.shields.io/badge/Zhilicon-v0.2.0-0d1117)](https://github.com/zhilicon-ai/zhilicon-sdk/releases/tag/v0.2.0)
+[![Portfolio](https://img.shields.io/badge/Zhilicon-v0.2.0-0d1117)](https://github.com/zhilicon-ai)
 [![Repositories](https://img.shields.io/badge/repositories-15-0d1117)](https://github.com/orgs/zhilicon-ai/repositories)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/zhilicon-ai/.github?color=0d1117&label=last%20commit)](https://github.com/zhilicon-ai/.github/commits/main)
@@ -23,9 +23,9 @@
 <p align="center">
   <a href="https://github.com/zhilicon-ai"><strong>Organization Page</strong></a>&nbsp;·&nbsp;
   <a href="profile/README.md"><strong>Profile README</strong></a>&nbsp;·&nbsp;
-  <a href="https://github.com/zhilicon-ai/zhilicon-sdk"><strong>SDK</strong></a>&nbsp;·&nbsp;
+  <a href="https://github.com/zhilicon-ai/zhilicon-sdk"><strong>SDK</strong></a><sup>🔒</sup>&nbsp;·&nbsp;
   <a href="https://github.com/zhilicon-ai/zhilicon-developer-docs"><strong>Developer Docs</strong></a>&nbsp;·&nbsp;
-  <a href="https://github.com/zhilicon-ai/zhilicon-sdk/releases/tag/v0.2.0"><strong>v0.2.0 Release</strong></a>
+  <a href="https://github.com/zhilicon-ai/zhilicon-sdk-examples/releases/tag/v0.2.0"><strong>v0.2.0 Release</strong></a>
 </p>
 
 ---
@@ -162,12 +162,12 @@ All commits in this repository must be **DCO-signed** (`git commit -s`). GPG sig
 
 These badges appear in every repo's README header. They are GitHub-API-driven and always reflect live state:
 
-| Badge | Purpose |
+| Badge | URL template (replace `REPO` with the target repository name) |
 |---|---|
-| `CI` | `https://github.com/zhilicon-ai/<repo>/actions/workflows/ci.yml/badge.svg` — latest main-branch CI run |
-| `Release` | `https://img.shields.io/github/v/release/zhilicon-ai/<repo>` — latest published release |
-| `Last Commit` | `https://img.shields.io/github/last-commit/zhilicon-ai/<repo>` — commit freshness indicator |
-| `Portfolio` | `https://img.shields.io/badge/Zhilicon-v<semver>-0d1117` — portfolio-wide version anchor |
+| **CI** | `github.com/zhilicon-ai/REPO/actions/workflows/ci.yml/badge.svg` — latest main-branch CI run |
+| **Release** | `img.shields.io/github/v/release/zhilicon-ai/REPO` — latest published release |
+| **Last Commit** | `img.shields.io/github/last-commit/zhilicon-ai/REPO` — commit freshness indicator |
+| **Portfolio** | `img.shields.io/badge/Zhilicon-vSEMVER-0d1117` — portfolio-wide version anchor |
 
 Each repo supplements this core row with repo-specific badges (Python versions, linters, classification, export-control, chip coverage, etc.). See any repo's README for the concrete pattern.
 
@@ -175,7 +175,9 @@ Each repo supplements this core row with repo-specific badges (Python versions, 
 
 ## Security
 
-Report vulnerabilities privately per the [Zhilicon security policy](https://github.com/zhilicon-ai/zhilicon-sdk/blob/main/SECURITY.md). Do not open public issues for security-sensitive matters.
+Report security vulnerabilities privately by emailing **security@zhilicon.ai**. Do not open public issues for security-sensitive matters — the public issue tracker is not a triage surface for vulnerabilities.
+
+Each Zhilicon repository carries its own `SECURITY.md` with repository-specific details. Start with the public [`zhilicon-sdk-examples/SECURITY.md`](https://github.com/zhilicon-ai/zhilicon-sdk-examples/blob/main/SECURITY.md) or [`zhilicon-developer-docs/SECURITY.md`](https://github.com/zhilicon-ai/zhilicon-developer-docs/blob/main/SECURITY.md) for the externally-visible policy.
 
 For export-compliance questions on private silicon-design repositories (RTL, UVM, verification, architecture, microarchitecture, requirements), contact `export-compliance@zhilicon.ai`.
 
@@ -192,9 +194,9 @@ Individual Zhilicon repositories are licensed per their own `LICENSE` file.
 <div align="center">
 
 <a href="https://github.com/zhilicon-ai">github.com/zhilicon-ai</a>&nbsp;·&nbsp;
-<a href="https://github.com/zhilicon-ai/zhilicon-sdk">SDK</a>&nbsp;·&nbsp;
+<a href="https://github.com/zhilicon-ai/zhilicon-sdk">SDK</a><sup>🔒</sup>&nbsp;·&nbsp;
 <a href="https://github.com/zhilicon-ai/zhilicon-sdk-examples">Examples</a>&nbsp;·&nbsp;
 <a href="https://github.com/zhilicon-ai/zhilicon-developer-docs">Developer Docs</a>&nbsp;·&nbsp;
-<a href="https://github.com/zhilicon-ai/zhilicon-sdk/releases">Releases</a>
+<a href="https://github.com/zhilicon-ai/zhilicon-sdk-examples/releases">Releases</a>
 
 </div>
